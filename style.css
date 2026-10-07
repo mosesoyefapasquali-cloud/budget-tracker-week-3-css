@@ -1,0 +1,170 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap');
+
+/* General page styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 30px;
+    color: #333;
+}
+
+/* Page heading card */
+header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Heading fonts */
+h1,
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    margin: 0 0 10px;
+}
+
+header p {
+    margin: 0;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Add Expense card */
+.add-expense-section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #dfe5e8;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.add-expense-section h2 {
+    color: #2e7d32;
+    margin-top: 0;
+}
+
+/* Labels */
+label {
+    display: block;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+
+/* Inputs */
+input {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #bfc7cc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Input focus effect */
+input:focus {
+    border-color: #2e7d32;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.15);
+}
+
+/* Add Expense button */
+button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 5px;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #256628;
+}
+
+/* Expenses card */
+#expenses-section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #dfe5e8;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+#expenses-section h2 {
+    color: #2e7d32;
+    margin-top: 0;
+}
+
+/* Expense table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #dfe5e8;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Table header */
+th {
+    background-color: #2e7d32;
+    color: white;
+    padding: 14px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Table cells */
+td {
+    padding: 14px;
+    border-bottom: 1px solid #dfe5e8;
+}
+
+/* Alternating table rows */
+tbody tr:nth-child(even) {
+    background-color: #f4f6f8;
+}
+
+/* Table row hover */
+tbody tr:hover {
+    background-color: #e8f5e9;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    header,
+    .add-expense-section,
+    #expenses-section {
+        padding: 20px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+}
